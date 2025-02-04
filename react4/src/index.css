@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:gilroy;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+img{
+  height: 100px;
+  position: absolute;
+}
+
+button{
+  position: absolute;
+  top: 50%;
+
+  transform: translate(-50%,-50%);
+  padding: 10px 20px;
+  left: 50%;
+}
