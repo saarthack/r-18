@@ -13,11 +13,7 @@ const App = () => {
   const submitHandler = (e) => {
     e.preventDefault()
 
-    const copyUser = [...allUsers]
-
-    copyUser.push({username,email,imageURL})
-
-    setAllUsers(copyUser)
+    setAllUsers([...allUsers,{username,email,imageURL}])
     
 
     setUsername('')
