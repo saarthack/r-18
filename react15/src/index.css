@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:gilroy;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body{
+  background-color: #111;
+}
+
+input,button{
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+h1{
+  font-size: 100px;
+  color: #fff;
+}
+
+.error{
+  color: red;
+}
+
+.user{
+  color:orange;
+}
+.admin{
+  color: green;
+}
