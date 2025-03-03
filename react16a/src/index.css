@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:gilroy;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+.nav{
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
